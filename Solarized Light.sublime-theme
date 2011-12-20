@@ -7,13 +7,15 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Solarized/Solarized Light/tabset-background.png",
+        // "layer0.texture": "Theme - Solarized/Solarized Light/tabset-background.png",
+        "layer0.tint": [238,232,213],
+        // "layer0.tint": [253,246,227],
         "layer0.inner_margin": [1, 2],
         "layer0.opacity": 1.0,
         "content_margin": [3, 4, 3, 3],
         "tab_overlap": 24,
         "tab_width": 180,
-        "tab_min_width": 40,
+        "tab_min_width":40,
         "tab_height": 28,
         "mouse_wheel_switch": false
     },
@@ -30,10 +32,12 @@
         "hit_test_level": 0.5,
         // Inactive tab settings
         "layer0.texture": "Theme - Solarized/Solarized Light/tab-inactive.png",
+        // "layer0.tint": [147, 161, 161],
         "layer0.inner_margin": [18, 4],
         "layer0.opacity": 1.0,
         // Active tab setting
         "layer1.texture": "Theme - Solarized/Solarized Light/tab-active.png",
+        // "layer1.tint": [131,148,150],
         "layer1.inner_margin": [18, 4],
         "layer1.opacity": 0.0,
         // Hover tab setting
@@ -382,7 +386,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [172, 172, 172],
+        "layer0.tint": [238, 232, 213],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
@@ -395,13 +399,14 @@
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
-        "layer0.tint": [222, 227, 233],
+        "layer0.tint": [253, 246, 227],
         "layer0.opacity": 1.0
     },
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Solarized/Solarized Light/sidebar-row-selected.png",
+        // "layer0.texture": "Theme - Solarized/Solarized Light/sidebar-row-selected.png",
+        "layer0.tint": [238, 232, 213],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -414,29 +419,32 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [110, 126, 141],
+        "color": [88, 110, 117],
         "font.bold": true,
         "shadow_color": [241, 244, 247],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255],
-        "shadow_color": [34, 94, 145]
+        "color": [101, 123, 131],
+        "shadow_color": [34, 94, 145],
+        "shadow_offset": [0 ,0]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [0, 0, 0],
+        "color": [101, 123, 131],
+        "font.bold": false,
         "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255],
+        "color": [101, 123, 131],
+        "font.bold": true,
         "shadow_color": [34, 94, 145],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [0, 0]
     },
     // Sidebar file close
     {
