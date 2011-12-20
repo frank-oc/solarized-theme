@@ -12,7 +12,7 @@ If you are a git user, the best way to install the theme and keep up to date is 
 
 Go to your Sublime Text 2 `Packages` directory and clone the theme repository using the command below:
 
-    git clone https://github.com/frank-oc/Solarized-theme/ "Theme - Solarized"
+    git clone https://github.com/frank-oc/solarized-theme/ "Theme - Solarized"
 
 ### Download Manually
 
