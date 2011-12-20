@@ -1,12 +1,12 @@
-# Soda Theme
+# Solarized Theme
 
 Dark and light custom UI themes for Sublime Text 2.
 
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=5)
+![Solarized Light Theme](http://buymeaSolarized.github.com/Solarized-theme/images/screenshots/Solarized-light-theme.png?v=5)
 
-![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-dark-theme.png?v=5)
+![Solarized Dark Theme](http://buymeaSolarized.github.com/Solarized-theme/images/screenshots/Solarized-dark-theme.png?v=5)
 
 ## Installation
 
@@ -16,12 +16,12 @@ If you are a git user, the best way to install the theme and keep up to date is 
 
 Go to your Sublime Text 2 `Packages` directory and clone the theme repository using the command below:
 
-    git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+    git clone https://github.com/buymeaSolarized/Solarized-theme/ "Theme - Solarized"
 
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Soda`
+* Unzip the files and rename the folder to `Theme - Solarized`
 * Copy the folder to your Sublime Text 2 `Packages` directory
 
 ## Activating the theme
@@ -29,23 +29,23 @@ Go to your Sublime Text 2 `Packages` directory and clone the theme repository us
 To configure Sublime Text 2 to use the theme:
 
 * Open your Sublime Text 2 User Global Preferences file `Sublime Text 2 -> Preferences -> Global Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Solarized Light.sublime-theme"` or `"theme": "Solarized Dark.sublime-theme"`
 
 ### Example User Global Settings
 
     {
-        "theme": "Soda Light.sublime-theme"
+        "theme": "Solarized Light.sublime-theme"
     }
 
 ## Bonus Options
 
 ### Syntax Highlighting Colour Schemes
 
-The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.
+The Solarized Light screenshot uses a modified version of Espresso Tutti Colori and the Solarized Dark screenshot uses a modified version of Monokai.
 
 If you'd like to use the syntax highlighting schemes shown in the screenshots: 
 
-* Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
+* Download [colour-schemes.zip](http://buymeaSolarized.github.com/Solarized-theme/extras/colour-schemes.zip)
 * Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
 * Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
@@ -55,11 +55,11 @@ The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Me
 
 ## Release Notes
 
-Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2. ST2 dev builds move quickly and changes can occur with the theme API between releases, so there may be occassions where the theme doesn't quite work with a brand new dev release.
+Solarized theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2. ST2 dev builds move quickly and changes can occur with the theme API between releases, so there may be occassions where the theme doesn't quite work with a brand new dev release.
 
 ## Development
 
-While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
+While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeaSolarized/Solarized-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
 
 ## Legals
 
