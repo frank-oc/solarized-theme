@@ -1,12 +1,8 @@
 # Solarized Theme
 
-Dark and light custom UI themes for Sublime Text 2.
-
-## Design
-
-![Solarized Light Theme](http://buymeaSolarized.github.com/Solarized-theme/images/screenshots/Solarized-light-theme.png?v=5)
-
-![Solarized Dark Theme](http://buymeaSolarized.github.com/Solarized-theme/images/screenshots/Solarized-dark-theme.png?v=5)
+Dark and light custom UI themes for Sublime Text 2.  This theme is forked 
+from the already quite excellent [Soda theme](https://github.com/buymeasoda/soda-theme) 
+and adjusted for the [Solarized](http://ethanschoonover.com/solarized) color scheme.
 
 ## Installation
 
@@ -16,7 +12,7 @@ If you are a git user, the best way to install the theme and keep up to date is 
 
 Go to your Sublime Text 2 `Packages` directory and clone the theme repository using the command below:
 
-    git clone https://github.com/buymeaSolarized/Solarized-theme/ "Theme - Solarized"
+    git clone https://github.com/frank-oc/Solarized-theme/ "Theme - Solarized"
 
 ### Download Manually
 
@@ -37,29 +33,9 @@ To configure Sublime Text 2 to use the theme:
         "theme": "Solarized Light.sublime-theme"
     }
 
-## Bonus Options
-
-### Syntax Highlighting Colour Schemes
-
-The Solarized Light screenshot uses a modified version of Espresso Tutti Colori and the Solarized Dark screenshot uses a modified version of Monokai.
-
-If you'd like to use the syntax highlighting schemes shown in the screenshots: 
-
-* Download [colour-schemes.zip](http://buymeaSolarized.github.com/Solarized-theme/extras/colour-schemes.zip)
-* Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
-* Enable the colour scheme via `Preferences -> Color Scheme -> User`
-
-### Code Font
-
-The code font shown in the screenshot is [Meslo](https://github.com/andreberg/Meslo-Font), which is a modified version of Menlo.
-
 ## Release Notes
 
 Solarized theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2. ST2 dev builds move quickly and changes can occur with the theme API between releases, so there may be occassions where the theme doesn't quite work with a brand new dev release.
-
-## Development
-
-While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeaSolarized/Solarized-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
 
 ## Legals
 
