@@ -73,7 +73,7 @@
         // Inactive tab label
         "class": "tab_label",
         "fade": true,
-        "fg": [204, 204, 204],
+        "fg": [131, 148, 150],
         "bg": [66, 66, 66]
     },
     {
@@ -86,6 +86,7 @@
         // Active tab label
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [147, 161, 161],
         "bg": [78, 78, 78]
     },
     // Tab close button
@@ -384,7 +385,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [25, 25, 25],
+        "layer0.tint": [0, 0, 0],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
@@ -397,7 +398,7 @@
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
-        "layer0.tint": [30, 30, 30],
+        "layer0.tint": [0, 43, 54],
         "layer0.opacity": 1.0,
         "dark_content": true
     },
@@ -417,7 +418,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [210, 210, 210],
+        "color": [147, 161, 161], // 93a1a1
         "font.bold": true,
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
@@ -425,18 +426,18 @@
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [210, 210, 210]
+        "color": [147, 161, 161]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [125, 125, 125],
+        "color": [131, 148, 151],
         "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [210, 210, 210],
+        "color": [131, 148, 151],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
     },
@@ -571,6 +572,7 @@
     {
         "class": "panel_control",
         "layer0.texture": "Theme - Solarized/Solarized Dark/panel-background.png",
+        "layer0.tint": [88,110,117,255],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
@@ -578,9 +580,11 @@
     {
         "class": "overlay_control",
         "layer0.texture": "Theme - Solarized/Solarized Dark/overlay-background.png",
+        "layer0.tint": [0, 0, 0, 100],
         "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Solarized/Solarized Dark/quick-panel-background.png",
+        "layer1.tint": [255, 0, 255, 90],
         "layer1.inner_margin": [12, 37, 12, 19],
         "layer1.opacity": 1.0,
         "content_margin": [11, 8, 11, 17]
@@ -593,7 +597,7 @@
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
-        "layer0.tint": [33, 33, 33],
+        "layer0.tint": [0, 43, 54],
         "layer0.opacity": 1.0,
         "dark_content": true
     },
@@ -601,37 +605,39 @@
         "class": "quick_panel_row",
         "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
+        "layer0.tint": [7, 54, 66],
+        "layer0.opacity": 1.0,
         "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
-        "fg": [190, 190, 190, 255],
+        "fg": [147, 161, 161, 255],
         "match_fg": [255, 255, 255, 255],
-        "bg": [41, 41, 41, 255],
+        "bg": [0, 43, 54, 255],
         "selected_fg": [200, 200, 200, 255],
         "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "selected_bg": [7, 54, 66, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [120, 120, 120, 255],
+        "fg": [131, 148, 150, 255],
         "match_fg": [200, 200, 200, 255],
-        "bg": [41, 41, 41, 255],
+        "bg": [0, 43, 54, 255],
         "selected_fg": [130, 130, 130, 255],
         "selected_match_fg": [255, 255, 255, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "selected_bg": [7, 54, 66, 255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [137, 208, 244, 255],
-        "bg": [41, 41, 41, 255],
+        "bg": [0, 43, 54, 255],
         "selected_fg": [137, 208, 244, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "selected_bg": [7, 54, 66, 255]
     },
 
 //
@@ -642,6 +648,7 @@
         "class": "mini_quick_panel_row",
         "layer0.texture": "Theme - Solarized/Solarized Dark/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.tint": [255, 0, 255],
         "layer0.opacity": 1.0
     },
     {
