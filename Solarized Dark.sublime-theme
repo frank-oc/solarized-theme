@@ -7,7 +7,8 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/tabset-background.png",
+        // "layer0.texture": "Theme - Solarized/Solarized Dark/tabset-background.png",
+		"layer0.tint": [7, 54, 66],
         "layer0.inner_margin": [1, 2],
         "layer0.opacity": 1.0,
         "content_margin": [3, 4, 3, 3],
@@ -385,7 +386,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [7, 54, 66],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
@@ -405,8 +406,9 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Solarized/Solarized Dark/sidebar-row-selected.png",
-        "layer0.opacity": 0.0,
+        // "layer0.texture": "Theme - Solarized/Solarized Dark/sidebar-row-selected.png",
+		"layer0.tint": [7, 54, 66],
+		"layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
     // Sidebar row selected
@@ -418,28 +420,32 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [147, 161, 161], // 93a1a1
+        "color": [147, 161, 161],
         "font.bold": true,
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_heading",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [147, 161, 161]
+        "color": [147, 161, 161],
+        "shadow_color": [34, 94, 145],
+        "shadow_offset": [0, 0]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
         "color": [131, 148, 151],
+        "font.bold": false,
         "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [131, 148, 151],
+        "font.bold": true,
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [0, 0]
     },
     // Sidebar file close
     { 
