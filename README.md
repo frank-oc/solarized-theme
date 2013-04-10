@@ -1,25 +1,20 @@
 # Solarized Theme
 
-Dark and light custom UI themes for Sublime Text 2.  This theme is forked 
-from the already quite excellent [Soda theme](https://github.com/buymeasoda/soda-theme) 
+Dark and light custom UI themes for Sublime Text 2.  This theme is forked
+from the already quite excellent [Soda theme](https://github.com/buymeasoda/soda-theme)
 and adjusted for the [Solarized](http://ethanschoonover.com/solarized) color scheme.
 
 Note: This is still work in progress.
 
 ## Installation
 
-If you are a git user, the best way to install the theme and keep up to date is to clone the repo directly into your `Packages` directory in the Sublime Text 2 application settings area.
-
-### Using Git
-
-Go to your Sublime Text 2 `Packages` directory and clone the theme repository using the command below:
-
-    git clone https://github.com/frank-oc/solarized-theme/ "Theme - Solarized"
+Use [Package Control](https://github.com/buymeasoda/soda-theme.git) to add the repository
+and then install this package (solarized-theme).
 
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Solarized`
+* Unzip the files and rename the folder to `solarized-theme`
 * Copy the folder to your Sublime Text 2 `Packages` directory
 
 ## Activating the theme
